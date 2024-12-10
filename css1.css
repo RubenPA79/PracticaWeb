@@ -1,0 +1,63 @@
+/* Contact Form */
+.contact-form {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.8rem 2rem;
+    background-color: #0044cc;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #003399;
+}
+
+/* Course List */
+.courses {
+    padding: 2rem;
+    text-align: center;
+}
+
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.course-list li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* Team Section */
+.team {
+    padding: 2rem;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-member {
+    background-color: #f4f4f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
